@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev # 开发环境
   application:
-    name: microservice-config-eureka
+    name: spring-config-eureka
 eureka:
   instance:
     hostname: eureka6001.com
@@ -25,7 +25,7 @@ server:
 spring:
   profiles: prod # 生产环境
   application:
-    name: microservice-config-eureka
+    name: spring-config-eureka
 eureka:
   instance:
     hostname: eureka6001.com
